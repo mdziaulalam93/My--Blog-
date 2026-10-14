@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A personal lifestyle blog — thoughts, stories, and moments from everyday life." />
+  <title>Dusk & Reverie — Lifestyle Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="/">Dusk &amp; Reverie</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#featured">Stories</a></li>
+        <li><a href="#more-stories">More Stories</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#newsletter">Subscribe</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Personal lifestyle</p>
+        <h1 id="hero-heading">Life is a collection<br /><em>of beautiful moments.</em></h1>
+        <p class="hero-sub">Slow mornings, wandering thoughts, and the quiet magic between the lines.</p>
+        <a class="btn" href="#featured">Read the latest</a>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED POSTS ===== -->
+    <section class="featured" id="featured" aria-labelledby="featured-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="featured-heading">Featured Stories</h2>
+          <p>Curated moments worth pausing for.</p>
+        </header>
+
+        <!-- Big hero post -->
+        <article class="post-hero card" tabindex="0">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop"
+              alt="Golden light spilling over a quiet beach at sunset"
+              width="1200" height="700"
+              fetchpriority="high"
+              loading="eager"
+            />
+          </div>
+          <div class="card-body">
+            <span class="tag">Travel</span>
+            <h3><a href="#">The Beaches That Taught Me Stillness</a></h3>
+            <p>Sometimes the ocean doesn't roar — it whispers. Three weeks alone on the coast of Portugal changed the way I listen.</p>
+            <div class="card-meta">
+              <time datetime="2026-10-10">Oct 10, 2026</time>
+              <span>·</span>
+              <span>6 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post grid -->
+        <div class="posts-grid" role="list">
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=75&auto=format&fit=crop"
+                alt="Steaming coffee cup on a wooden table in soft morning light"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Morning Rituals</span>
+              <h3><a href="#">On Slow Mornings & Unhurried Coffee</a></h3>
+              <p>Before the inbox, before the noise — there's a version of the morning that belongs entirely to you.</p>
+              <div class="card-meta">
+                <time datetime="2026-09-28">Sep 28, 2026</time>
+                <span>·</span><span>4 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?w=800&q=75&auto=format&fit=crop"
+                alt="Rain-streaked window overlooking a blurry city at night"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Reflections</span>
+              <h3><a href="#">The Art of Doing Nothing Well</a></h3>
+              <p>Rest is not idleness. Learning to simply exist — without producing — is the hardest skill I've practiced.</p>
+              <div class="card-meta">
+                <time datetime="2026-09-15">Sep 15, 2026</time>
+                <span>·</span><span>5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=75&auto=format&fit=crop"
+                alt="Open journal with a pen resting beside a dried flower"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Journaling</span>
+              <h3><a href="#">Writing to Find Out What I Think</a></h3>
+              <p>A journal isn't a diary of events — it's a map of the interior. Here's how I use it to navigate the fog.</p>
+              <div class="card-meta">
+                <time datetime="2026-09-02">Sep 2, 2026</time>
+                <span>·</span><span>7 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=75&auto=format&fit=crop"
+                alt="Cozy reading nook with fairy lights and stacked books"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Books</span>
+              <h3><a href="#">Five Books That Quietly Rewired Me</a></h3>
+              <p>Not bestsellers. Not must-reads. Just five books that found me at the right time and left a mark.</p>
+              <div class="card-meta">
+                <time datetime="2026-08-20">Aug 20, 2026</time>
+                <span>·</span><span>8 min read</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /posts-grid -->
+      </div>
+    </section>
+
+    <!-- ===== QUOTE BREAK ===== -->
+    <section class="quote-break" aria-label="Inspirational quote">
+      <div class="container">
+        <blockquote>
+          <p>"The present moment always will have been."</p>
+          <footer>— Marcus Aurelius</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===== MORE STORIES SECTION ===== -->
+    <section class="more-stories" id="more-stories" aria-labelledby="more-stories-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="more-stories-heading">More Stories</h2>
+          <p>More moments worth pausing for.</p>
+        </header>
+
+        <div class="posts-grid" role="list">
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=75&auto=format&fit=crop"
+                alt="Lone figure walking a misty forest path at dawn"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Solitude</span>
+              <h3><a href="#">Learning to Enjoy My Own Company</a></h3>
+              <p>I used to fill every quiet moment with noise. Then I learned that silence isn't something to escape — it's somewhere to arrive.</p>
+              <div class="card-meta">
+                <time datetime="2026-06-12">Jun 12, 2026</time>
+                <span>·</span><span>5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=75&auto=format&fit=crop"
+                alt="Hands painting on a canvas with vibrant colours"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Creativity</span>
+              <h3><a href="#">Making Things Nobody Asked For</a></h3>
+              <p>A short story nobody will read. Bread that didn't rise. A sketch I threw away. Making things for no one taught me why I make things at all.</p>
+              <div class="card-meta">
+                <time datetime="2026-05-18">May 18, 2026</time>
+                <span>·</span><span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=75&auto=format&fit=crop"
+                alt="Golden hour light over green hills and wildflowers"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Gratitude</span>
+              <h3><a href="#">The Ordinary Things I Keep Forgetting to Notice</a></h3>
+              <p>A hot shower. Rain on a roof. The warmth of a mug in both hands. None of it is remarkable. All of it is.</p>
+              <div class="card-meta">
+                <time datetime="2026-05-01">May 1, 2026</time>
+                <span>·</span><span>3 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=75&auto=format&fit=crop"
+                alt="Empty road winding through autumn forest"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Travel</span>
+              <h3><a href="#">Getting Lost Was the Whole Point</a></h3>
+              <p>I had a map. I had a plan. Somewhere between the third wrong turn and a nameless café, I found the best meal of the trip.</p>
+              <div class="card-meta">
+                <time datetime="2026-08-14">Aug 14, 2026</time>
+                <span>·</span><span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=75&auto=format&fit=crop"
+                alt="Person studying at a cozy desk with warm lamp light"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Growth</span>
+              <h3><a href="#">On Changing Your Mind Without Apology</a></h3>
+              <p>We act like conviction means rigidity. But new information should change us. Updating your views isn't weakness — it's paying attention.</p>
+              <div class="card-meta">
+                <time datetime="2026-07-22">Jul 22, 2026</time>
+                <span>·</span><span>4 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=75&auto=format&fit=crop"
+                alt="Person sitting peacefully by a lake at sunset"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Mindfulness</span>
+              <h3><a href="#">Three Lines a Day Is Enough</a></h3>
+              <p>I've bought many beautiful journals I never filled. This year I changed the rule: just three lines. That small shift changed everything.</p>
+              <div class="card-meta">
+                <time datetime="2026-07-08">Jul 8, 2026</time>
+                <span>·</span><span>4 min read</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /posts-grid -->
+      </div>
+    </section>
+
+    <!-- ===== ABOUT STRIP ===== -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container about-inner">
+        <div class="about-img-wrap">
+          <img
+            src="ziaul-photo.jpg"
+            alt="Md Ziaul — Web Developer"
+            width="600" height="600"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text">
+          <span class="tag">About the author</span>
+          <h2 id="about-heading">Hey, I'm Md Ziaul.</h2>
+          <p>I'm a <strong>Web Developer</strong> who loves crafting clean, thoughtful experiences on the web. Beyond the code, I use this space to slow down and write about the quiet, meaningful moments of everyday life.</p>
+          <p>When I'm not building things for the browser, you'll find me exploring ideas, journaling, or searching for the perfect cup of coffee.</p>
+
+          <!-- Skills badges -->
+          <ul class="skill-badges" role="list" aria-label="Skills">
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>React / Next.js</li>
+            <li>Flutter</li>
+          </ul>
+
+          <!-- Contact -->
+          <div class="about-contact">
+            <a class="btn" href="mailto:ziaulmd93@gmail.com" aria-label="Send email to Md Ziaul">
+              ✉ ziaulmd93@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEWSLETTER ===== -->
+    <section class="newsletter" id="newsletter" aria-labelledby="nl-heading">
+      <div class="container newsletter-inner">
+        <h2 id="nl-heading">Stay in the loop</h2>
+        <p>New stories delivered to your inbox — no spam, no noise. Unsubscribe anytime.</p>
+        <form class="nl-form" novalidate>
+          <label class="sr-only" for="nl-email">Email address</label>
+          <input
+            id="nl-email"
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            autocomplete="email"
+            required
+          />
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+        <p class="nl-privacy" aria-live="polite" id="nl-msg"></p>
+      </div>
+    </section>
+
+    <!-- ===== STORY READER MODAL ===== -->
+    <div class="story-modal" id="storyModal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-card">
+        <button class="modal-close" id="modalClose" aria-label="Close story">✕</button>
+        <div class="modal-header">
+          <span class="tag" id="modal-tag">Tag</span>
+          <h2 id="modal-title">Story Title</h2>
+          <div class="modal-meta">
+            <span>By <strong>Md Ziaul</strong></span>
+            <span>·</span>
+            <time id="modal-date"></time>
+            <span>·</span>
+            <span id="modal-read"></span>
+          </div>
+        </div>
+        <div class="modal-img-wrap">
+          <img id="modal-img" src="" alt="" width="900" height="480" loading="lazy" />
+        </div>
+        <div class="modal-body" id="modal-body"></div>
+        <div class="modal-footer">
+          <button class="btn btn-outline" id="modalCloseBottom">Close Story</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">Dusk &amp; Reverie</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links" role="list">
+          <li>
+            <a href="mailto:ziaulmd93@gmail.com" aria-label="Email Md Ziaul">
+              ✉ Email
+            </a>
+          </li>
+          <li><a href="#featured">Stories</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">
+        &copy; 2026 Dusk &amp; Reverie. All rights reserved. &nbsp;|&nbsp;
+        Made with ♥ by <strong>Md Ziaul</strong> — Web Developer
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
