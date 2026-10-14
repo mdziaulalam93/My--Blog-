@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A personal lifestyle blog — thoughts, stories, and moments from everyday life." />
+  <title>Dusk & Reverie — Lifestyle Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="/">Dusk &amp; Reverie</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#featured">Stories</a></li>
+        <li><a href="#more-stories">More Stories</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#newsletter">Subscribe</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Personal lifestyle</p>
+        <h1 id="hero-heading">Life is a collection<br /><em>of beautiful moments.</em></h1>
+        <p class="hero-sub">Slow mornings, wandering thoughts, and the quiet magic between the lines.</p>
+        <a class="btn" href="#featured">Read the latest</a>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED POSTS ===== -->
+    <section class="featured" id="featured" aria-labelledby="featured-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="featured-heading">Featured Stories</h2>
+          <p>Curated moments worth pausing for.</p>
+        </header>
+
+        <!-- Big hero post -->
+        <article class="post-hero card" tabindex="0">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop"
+              alt="Golden light spilling over a quiet beach at sunset"
+              width="1200" height="700"
+              fetchpriority="high"
+              loading="eager"
+            />
+          </div>
+          <div class="card-body">
+            <span class="tag">Travel</span>
+            <h3><a href="#">The Beaches That Taught Me Stillness</a></h3>
+            <p>Sometimes the ocean doesn't roar — it whispers. Three weeks alone on the coast of Portugal changed the way I listen.</p>
+            <div class="card-meta">
+              <time datetime="2026-10-10">Oct 10, 2026</time>
+              <span>·</span>
+              <span>6 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post grid -->
+        <div class="posts-grid" role="list">
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=75&auto=format&fit=crop"
+                alt="Steaming coffee cup on a wooden table in soft morning light"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Morning Rituals</span>
+              <h3><a href="#">On Slow Mornings & Unhurried Coffee</a></h3>
+              <p>Before the inbox, before the noise — there's a version of the morning that belongs entirely to you.</p>
+              <div class="card-meta">
+                <time datetime="2026-09-28">Sep 28, 2026</time>
+                <span>·</span><span>4 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?w=800&q=75&auto=format&fit=crop"
+                alt="Rain-streaked window overlooking a blurry city at night"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Reflections</span>
+              <h3><a href="#">The Art of Doing Nothing Well</a></h3>
+              <p>Rest is not idleness. Learning to simply exist — without producing — is the hardest skill I've practiced.</p>
+              <div class="card-meta">
+                <time datetime="2026-09-15">Sep 15, 2026</time>
+                <span>·</span><span>5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=75&auto=format&fit=crop"
+                alt="Open journal with a pen resting beside a dried flower"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Journaling</span>
+              <h3><a href="#">Writing to Find Out What I Think</a></h3>
+              <p>A journal isn't a diary of events — it's a map of the interior. Here's how I use it to navigate the fog.</p>
+              <div class="card-meta">
+                <time datetime="2026-09-02">Sep 2, 2026</time>
+                <span>·</span><span>7 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=75&auto=format&fit=crop"
+                alt="Cozy reading nook with fairy lights and stacked books"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Books</span>
+              <h3><a href="#">Five Books That Quietly Rewired Me</a></h3>
+              <p>Not bestsellers. Not must-reads. Just five books that found me at the right time and left a mark.</p>
+              <div class="card-meta">
+                <time datetime="2026-08-20">Aug 20, 2026</time>
+                <span>·</span><span>8 min read</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /posts-grid -->
+      </div>
+    </section>
+
+    <!-- ===== QUOTE BREAK ===== -->
+    <section class="quote-break" aria-label="Inspirational quote">
+      <div class="container">
+        <blockquote>
+          <p>"The present moment always will have been."</p>
+          <footer>— Marcus Aurelius</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===== MORE STORIES SECTION ===== -->
+    <section class="more-stories" id="more-stories" aria-labelledby="more-stories-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="more-stories-heading">More Stories</h2>
+          <p>More moments worth pausing for.</p>
+        </header>
+
+        <div class="posts-grid" role="list">
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=75&auto=format&fit=crop"
+                alt="Lone figure walking a misty forest path at dawn"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Solitude</span>
+              <h3><a href="#">Learning to Enjoy My Own Company</a></h3>
+              <p>I used to fill every quiet moment with noise. Then I learned that silence isn't something to escape — it's somewhere to arrive.</p>
+              <div class="card-meta">
+                <time datetime="2026-06-12">Jun 12, 2026</time>
+                <span>·</span><span>5 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=75&auto=format&fit=crop"
+                alt="Hands painting on a canvas with vibrant colours"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Creativity</span>
+              <h3><a href="#">Making Things Nobody Asked For</a></h3>
+              <p>A short story nobody will read. Bread that didn't rise. A sketch I threw away. Making things for no one taught me why I make things at all.</p>
+              <div class="card-meta">
+                <time datetime="2026-05-18">May 18, 2026</time>
+                <span>·</span><span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=75&auto=format&fit=crop"
+                alt="Golden hour light over green hills and wildflowers"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Gratitude</span>
+              <h3><a href="#">The Ordinary Things I Keep Forgetting to Notice</a></h3>
+              <p>A hot shower. Rain on a roof. The warmth of a mug in both hands. None of it is remarkable. All of it is.</p>
+              <div class="card-meta">
+                <time datetime="2026-05-01">May 1, 2026</time>
+                <span>·</span><span>3 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=75&auto=format&fit=crop"
+                alt="Empty road winding through autumn forest"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Travel</span>
+              <h3><a href="#">Getting Lost Was the Whole Point</a></h3>
+              <p>I had a map. I had a plan. Somewhere between the third wrong turn and a nameless café, I found the best meal of the trip.</p>
+              <div class="card-meta">
+                <time datetime="2026-08-14">Aug 14, 2026</time>
+                <span>·</span><span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=75&auto=format&fit=crop"
+                alt="Person studying at a cozy desk with warm lamp light"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Growth</span>
+              <h3><a href="#">On Changing Your Mind Without Apology</a></h3>
+              <p>We act like conviction means rigidity. But new information should change us. Updating your views isn't weakness — it's paying attention.</p>
+              <div class="card-meta">
+                <time datetime="2026-07-22">Jul 22, 2026</time>
+                <span>·</span><span>4 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" role="listitem" tabindex="0">
+            <div class="card-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=75&auto=format&fit=crop"
+                alt="Person sitting peacefully by a lake at sunset"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag">Mindfulness</span>
+              <h3><a href="#">Three Lines a Day Is Enough</a></h3>
+              <p>I've bought many beautiful journals I never filled. This year I changed the rule: just three lines. That small shift changed everything.</p>
+              <div class="card-meta">
+                <time datetime="2026-07-08">Jul 8, 2026</time>
+                <span>·</span><span>4 min read</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /posts-grid -->
+      </div>
+    </section>
+
+    <!-- ===== ABOUT STRIP ===== -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container about-inner">
+        <div class="about-img-wrap">
+          <img
+            src="ziaul-photo.jpg"
+            alt="Md Ziaul — Web Developer"
+            width="600" height="600"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text">
+          <span class="tag">About the author</span>
+          <h2 id="about-heading">Hey, I'm Md Ziaul.</h2>
+          <p>I'm a <strong>Web Developer</strong> who loves crafting clean, thoughtful experiences on the web. Beyond the code, I use this space to slow down and write about the quiet, meaningful moments of everyday life.</p>
+          <p>When I'm not building things for the browser, you'll find me exploring ideas, journaling, or searching for the perfect cup of coffee.</p>
+
+          <!-- Skills badges -->
+          <ul class="skill-badges" role="list" aria-label="Skills">
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>React / Next.js</li>
+            <li>Flutter</li>
+          </ul>
+
+          <!-- Contact -->
+          <div class="about-contact">
+            <a class="btn" href="mailto:ziaulmd93@gmail.com" aria-label="Send email to Md Ziaul">
+              ✉ ziaulmd93@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEWSLETTER ===== -->
+    <section class="newsletter" id="newsletter" aria-labelledby="nl-heading">
+      <div class="container newsletter-inner">
+        <h2 id="nl-heading">Stay in the loop</h2>
+        <p>New stories delivered to your inbox — no spam, no noise. Unsubscribe anytime.</p>
+        <form class="nl-form" novalidate>
+          <label class="sr-only" for="nl-email">Email address</label>
+          <input
+            id="nl-email"
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            autocomplete="email"
+            required
+          />
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+        <p class="nl-privacy" aria-live="polite" id="nl-msg"></p>
+      </div>
+    </section>
+
+    <!-- ===== STORY READER MODAL ===== -->
+    <div class="story-modal" id="storyModal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-card">
+        <button class="modal-close" id="modalClose" aria-label="Close story">✕</button>
+        <div class="modal-header">
+          <span class="tag" id="modal-tag">Tag</span>
+          <h2 id="modal-title">Story Title</h2>
+          <div class="modal-meta">
+            <span>By <strong>Md Ziaul</strong></span>
+            <span>·</span>
+            <time id="modal-date"></time>
+            <span>·</span>
+            <span id="modal-read"></span>
+          </div>
+        </div>
+        <div class="modal-img-wrap">
+          <img id="modal-img" src="" alt="" width="900" height="480" loading="lazy" />
+        </div>
+        <div class="modal-body" id="modal-body"></div>
+        <div class="modal-footer">
+          <button class="btn btn-outline" id="modalCloseBottom">Close Story</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">Dusk &amp; Reverie</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links" role="list">
+          <li>
+            <a href="mailto:ziaulmd93@gmail.com" aria-label="Email Md Ziaul">
+              ✉ Email
+            </a>
+          </li>
+          <li><a href="#featured">Stories</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">
+        &copy; 2026 Dusk &amp; Reverie. All rights reserved. &nbsp;|&nbsp;
+        Made with ♥ by <strong>Md Ziaul</strong> — Web Developer
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+
+/* =====================================================
+   DUSK & REVERIE — DARK LIFESTYLE BLOG
+   ===================================================== */
+
+/* ---------- CSS Custom Properties ---------- */
+:root {
+  --clr-bg:        #0d0d0f;
+  --clr-surface:   #131316;
+  --clr-surface-2: #1a1a1e;
+  --clr-border:    #252528;
+  --clr-text:      #e0ddd8;
+  --clr-muted:     #7a7870;
+  --clr-accent:    #c9a96e;   /* warm gold */
+  --clr-accent-2:  #8b5e3c;   /* deep amber */
+  --clr-white:     #f5f3ef;
+
+  --font-serif:    'Playfair Display', Georgia, serif;
+  --font-sans:     'Inter', system-ui, sans-serif;
+
+  --radius-sm:     6px;
+  --radius-md:     12px;
+  --radius-lg:     20px;
+
+  --shadow-card:   0 4px 32px rgba(0,0,0,0.55);
+  --shadow-img:    0 2px 20px rgba(0,0,0,0.6);
+
+  --transition:    0.28s cubic-bezier(0.4,0,0.2,1);
+
+  --max-w:         1200px;
+  --gutter:        clamp(1rem, 5vw, 2.5rem);
+}
+
+/* ---------- Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: var(--font-sans);
+  font-size: clamp(0.9375rem, 1.5vw, 1.0625rem);
+  line-height: 1.7;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a { color: inherit; text-decoration: none; }
+
+ul[role="list"] { list-style: none; }
+
+/* Screen-reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.7em 1.8em;
+  background: var(--clr-accent);
+  color: #0d0d0f;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  border-radius: 100vw;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+.btn:hover, .btn:focus-visible {
+  background: var(--clr-white);
+  box-shadow: 0 0 0 3px var(--clr-accent);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--clr-accent);
+  border-color: var(--clr-accent);
+}
+.btn-outline:hover, .btn-outline:focus-visible {
+  background: var(--clr-accent);
+  color: #0d0d0f;
+}
+
+/* ---------- Tags ---------- */
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  background: rgba(201,169,110,0.12);
+  padding: 0.25em 0.75em;
+  border-radius: 100vw;
+  margin-bottom: 0.6em;
+}
+
+/* =====================================================
+   HEADER / NAV
+   ===================================================== */
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  background: rgba(13,13,15,0.72);
+  border-bottom: 1px solid var(--clr-border);
+  transition: background var(--transition);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.logo {
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-style: italic;
+  color: var(--clr-accent);
+  letter-spacing: 0.02em;
+  transition: opacity var(--transition);
+}
+.logo:hover { opacity: 0.8; }
+
+.nav-links {
+  display: flex;
+  gap: clamp(1.2rem, 3vw, 2.5rem);
+  list-style: none;
+}
+.nav-links a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--clr-muted);
+  transition: color var(--transition);
+  position: relative;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; left: 0;
+  width: 0; height: 1px;
+  background: var(--clr-accent);
+  transition: width var(--transition);
+}
+.nav-links a:hover, .nav-links a:focus-visible {
+  color: var(--clr-text);
+  outline: none;
+}
+.nav-links a:hover::after, .nav-links a:focus-visible::after { width: 100%; }
+
+/* Mobile toggle */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+.nav-toggle span {
+  display: block;
+  width: 24px; height: 2px;
+  background: var(--clr-text);
+  border-radius: 2px;
+  transition: transform var(--transition), opacity var(--transition);
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 640px) {
+  .nav-toggle { display: flex; }
+  .nav-links {
+    position: fixed;
+    inset: 68px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    background: rgba(13,13,15,0.97);
+    transform: translateY(-110%);
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+    z-index: 99;
+  }
+  .nav-links.open { transform: translateY(0); }
+  .nav-links a { font-size: 1.2rem; }
+}
+
+/* =====================================================
+   HERO
+   ===================================================== */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1600&q=80&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.25) saturate(0.6);
+  transform: scale(1.05);
+  transition: transform 8s ease-out;
+}
+.hero-bg.loaded { transform: scale(1); }
+
+/* Dark gradient overlay */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(13,13,15,0.3) 0%,
+    rgba(13,13,15,0.1) 40%,
+    rgba(13,13,15,0.85) 100%
+  );
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  max-width: 800px;
+}
+
+.hero-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  margin-bottom: 1.25rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.2s forwards;
+}
+
+.hero-content h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1.12;
+  color: var(--clr-white);
+  margin-bottom: 1.25rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.4s forwards;
+}
+.hero-content h1 em {
+  font-style: italic;
+  color: var(--clr-accent);
+}
+
+.hero-sub {
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  color: rgba(224,221,216,0.75);
+  max-width: 520px;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.6s forwards;
+}
+
+.hero-content .btn {
+  opacity: 0;
+  animation: fadeUp 0.8s 0.8s forwards;
+}
+
+/* Scroll hint */
+.hero-scroll-hint {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  translate: -50% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--clr-muted);
+  z-index: 1;
+  animation: fadeIn 1s 1.5s both;
+}
+.scroll-line {
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(to bottom, var(--clr-accent), transparent);
+  animation: scrollPulse 2s infinite;
+}
+
+/* =====================================================
+   FEATURED POSTS
+   ===================================================== */
+.featured {
+  padding-block: clamp(4rem, 10vw, 8rem);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 6vw, 4rem);
+}
+.section-header h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--clr-white);
+  margin-bottom: 0.4em;
+}
+.section-header p {
+  color: var(--clr-muted);
+  font-size: 1rem;
+}
+
+/* ---- Hero post card ---- */
+.post-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  min-height: 420px;
+}
+.post-hero .card-img-wrap {
+  border-radius: 0;
+}
+.post-hero .card-img-wrap img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.post-hero:hover .card-img-wrap img,
+.post-hero:focus .card-img-wrap img {
+  transform: scale(1.04);
+}
+.post-hero .card-body {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--clr-surface-2);
+}
+.post-hero .card-body h3 {
+  font-size: clamp(1.2rem, 2.5vw, 1.75rem);
+  font-family: var(--font-serif);
+  margin-bottom: 0.75em;
+  line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+  .post-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  .post-hero .card-img-wrap { height: 260px; }
+}
+
+/* ---- Card ---- */
+.card {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  cursor: pointer;
+  outline-offset: 3px;
+}
+.card:hover, .card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 48px rgba(0,0,0,0.7);
+  border-color: rgba(201,169,110,0.35);
+  outline: none;
+}
+
+.card-img-wrap {
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  border-radius: 0;
+}
+.card-img-wrap img {
+  width: 100%; height: 100%;
+  transition: transform 0.5s ease;
+}
+.card:hover .card-img-wrap img, .card:focus-visible .card-img-wrap img {
+  transform: scale(1.06);
+}
+
+.card-body {
+  padding: clamp(1rem, 3vw, 1.5rem);
+}
+.card-body h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+  color: var(--clr-white);
+}
+.card-body h3 a {
+  transition: color var(--transition);
+}
+.card-body h3 a:hover { color: var(--clr-accent); }
+.card-body p {
+  font-size: 0.9rem;
+  color: var(--clr-muted);
+  margin-bottom: 1em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.78rem;
+  color: var(--clr-muted);
+}
+
+/* Posts grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: clamp(1rem, 3vw, 1.75rem);
+}
+
+/* =====================================================
+   QUOTE BREAK
+   ===================================================== */
+.quote-break {
+  padding-block: clamp(4rem, 10vw, 7rem);
+  background: linear-gradient(135deg, #13100a 0%, #0d0d0f 60%, #0f0c09 100%);
+  text-align: center;
+  border-top: 1px solid var(--clr-border);
+  border-bottom: 1px solid var(--clr-border);
+}
+.quote-break blockquote {
+  max-width: 680px;
+  margin-inline: auto;
+}
+.quote-break blockquote p {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  color: var(--clr-white);
+  line-height: 1.45;
+  margin-bottom: 1rem;
+}
+.quote-break blockquote p::before { content: '\201C'; color: var(--clr-accent); margin-right: 0.1em; }
+.quote-break blockquote p::after  { content: '\201D'; color: var(--clr-accent); margin-left: 0.1em; }
+.quote-break blockquote footer {
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  color: var(--clr-muted);
+}
+
+/* =====================================================
+   MORE STORIES SECTION
+   ===================================================== */
+.more-stories {
+  padding-block: clamp(4rem, 10vw, 8rem);
+  border-top: 1px solid var(--clr-border);
+  background: var(--clr-surface);
+}
+
+/* =====================================================
+   RANDOM STORY SECTION
+   ===================================================== */
+.random-story-section {
+  padding-block: clamp(4rem, 10vw, 7rem);
+  background: linear-gradient(160deg, #0f0c09 0%, #0d0d0f 50%, #0c0f0d 100%);
+  border-top: 1px solid var(--clr-border);
+  border-bottom: 1px solid var(--clr-border);
+  text-align: center;
+}
+.random-inner {
+  max-width: 600px;
+}
+.random-deco {
+  font-size: 2rem;
+  color: var(--clr-accent);
+  margin-bottom: 1rem;
+  animation: floatStar 3s ease-in-out infinite;
+}
+.random-story-section h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--clr-white);
+  margin-bottom: 0.6em;
+}
+.random-story-section p {
+  color: var(--clr-muted);
+  margin-bottom: 2rem;
+}
+.btn-random {
+  font-size: 1rem;
+  padding: 0.85em 2.4em;
+  gap: 0.6em;
+  box-shadow: 0 0 28px rgba(201,169,110,0.25);
+  position: relative;
+  overflow: hidden;
+}
+.btn-random::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.15) 50%, transparent 70%);
+  transform: translateX(-100%);
+  transition: transform 0.55s ease;
+}
+.btn-random:hover::after { transform: translateX(100%); }
+.dice {
+  display: inline-block;
+  transition: transform 0.4s ease;
+}
+.btn-random:hover .dice { transform: rotate(180deg) scale(1.3); }
+
+@keyframes floatStar {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50%       { transform: translateY(-8px) rotate(20deg); }
+}
+
+/* =====================================================
+   STORY MODAL
+   ===================================================== */
+.story-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.story-modal[hidden] { display: none; }
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(6,6,8,0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.modal-card {
+  position: relative;
+  z-index: 1;
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.8);
+  width: 100%;
+  max-width: 720px;
+  max-height: 90dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  animation: modalIn 0.35s cubic-bezier(0.34,1.56,0.64,1) both;
+  scrollbar-width: thin;
+  scrollbar-color: var(--clr-border) transparent;
+}
+.modal-card::-webkit-scrollbar { width: 5px; }
+.modal-card::-webkit-scrollbar-track { background: transparent; }
+.modal-card::-webkit-scrollbar-thumb { background: var(--clr-border); border-radius: 99px; }
+
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.88) translateY(24px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem; right: 1rem;
+  background: var(--clr-surface-2);
+  border: 1px solid var(--clr-border);
+  color: var(--clr-muted);
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  font-size: 0.95rem;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+  z-index: 2;
+}
+.modal-close:hover { background: var(--clr-border); color: var(--clr-white); }
+
+.modal-header {
+  padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.5rem, 4vw, 2.5rem) 0;
+}
+.modal-header h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  color: var(--clr-white);
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+}
+.modal-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.8rem;
+  color: var(--clr-muted);
+  margin-top: 0.4em;
+}
+
+.modal-img-wrap {
+  margin-top: 1.5rem;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.modal-img-wrap img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.modal-img-wrap:hover img { transform: scale(1.03); }
+
+.modal-body {
+  padding: clamp(1.25rem, 4vw, 2rem) clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--clr-muted);
+  line-height: 1.85;
+  font-size: 0.975rem;
+}
+.modal-body p { margin-bottom: 1.1em; }
+.modal-body p:last-child { margin-bottom: 0; }
+.modal-body strong { color: var(--clr-text); }
+.modal-body em { font-style: italic; color: rgba(224,221,216,0.75); }
+
+.modal-footer {
+  padding: 0 clamp(1.5rem, 4vw, 2.5rem) clamp(1.5rem, 4vw, 2.5rem);
+  display: flex;
+  justify-content: center;
+}
+
+/* =====================================================
+   ABOUT
+   ===================================================== */
+.about {
+  padding-block: clamp(4rem, 10vw, 8rem);
+}
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .about-inner { grid-template-columns: 1fr; }
+}
+
+.about-img-wrap {
+  aspect-ratio: 1/1;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-img);
+  position: relative;
+}
+.about-img-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--clr-accent), transparent 60%);
+  z-index: -1;
+  opacity: 0.5;
+}
+.about-img-wrap img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform var(--transition);
+}
+.about-img-wrap:hover img { transform: scale(1.03); }
+
+.about-text .tag { margin-bottom: 0.8em; }
+.about-text h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--clr-white);
+  margin-bottom: 1rem;
+}
+.about-text p {
+  color: var(--clr-muted);
+  margin-bottom: 0.85em;
+}
+.about-text strong { color: var(--clr-text); }
+
+/* Skill badge pills */
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 1.25rem 0 1.5rem;
+}
+.skill-badges li {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--clr-accent);
+  background: rgba(201,169,110,0.1);
+  border: 1px solid rgba(201,169,110,0.25);
+  padding: 0.3em 0.9em;
+  border-radius: 100vw;
+  transition: background var(--transition), border-color var(--transition);
+}
+.skill-badges li:hover {
+  background: rgba(201,169,110,0.2);
+  border-color: rgba(201,169,110,0.5);
+}
+
+/* Contact button wrapper */
+.about-contact {
+  margin-top: 0.25rem;
+}
+.about-contact .btn {
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+/* =====================================================
+   NEWSLETTER
+   ===================================================== */
+.newsletter {
+  padding-block: clamp(4rem, 10vw, 7rem);
+  background: var(--clr-surface);
+  border-top: 1px solid var(--clr-border);
+}
+.newsletter-inner {
+  text-align: center;
+  max-width: 580px;
+}
+.newsletter h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  color: var(--clr-white);
+  margin-bottom: 0.6em;
+}
+.newsletter > .container > p,
+.newsletter-inner > p {
+  color: var(--clr-muted);
+  margin-bottom: 2rem;
+}
+
+.nl-form {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nl-form input {
+  flex: 1 1 220px;
+  padding: 0.75em 1.2em;
+  border-radius: 100vw;
+  border: 1px solid var(--clr-border);
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  transition: border-color var(--transition), box-shadow var(--transition);
+  outline: none;
+}
+.nl-form input:focus {
+  border-color: var(--clr-accent);
+  box-shadow: 0 0 0 3px rgba(201,169,110,0.18);
+}
+.nl-form input::placeholder { color: var(--clr-muted); }
+
+.nl-privacy {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--clr-muted);
+  min-height: 1.2em;
+}
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+.site-footer {
+  padding-block: 2.5rem;
+  background: var(--clr-surface-2);
+  border-top: 1px solid var(--clr-border);
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footer-logo {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--clr-accent);
+  font-size: 1.1rem;
+}
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.footer-links a {
+  font-size: 0.85rem;
+  color: var(--clr-muted);
+  transition: color var(--transition);
+}
+.footer-links a:hover { color: var(--clr-accent); }
+.footer-copy {
+  font-size: 0.78rem;
+  color: var(--clr-muted);
+  width: 100%;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 580px) {
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-links { justify-content: center; }
+}
+
+/* =====================================================
+   ANIMATIONS
+   ===================================================== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scrollPulse {
+  0%, 100% { opacity: 1; transform: scaleY(1); }
+  50%       { opacity: 0.3; transform: scaleY(0.5); }
+}
+
+/* ---------- Intersection Observer reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Focus visible global ---------- */
+:focus-visible {
+  outline: 2px solid var(--clr-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* =====================================================
+   DUSK & REVERIE — app.js
+   - Mobile nav toggle
+   - Hero bg parallax / load class
+   - Scroll reveal (IntersectionObserver)
+   - Newsletter form
+   - Story Reader Modal (click any card to read full article)
+   ===================================================== */
+
+(function () {
+  'use strict';
+
+  /* ---- Story Articles Database ---- */
+  const STORY_ARTICLES = {
+    "The Beaches That Taught Me Stillness": {
+      tag: "Travel",
+      title: "The Beaches That Taught Me Stillness",
+      date: "Oct 10, 2026",
+      read: "6 min read",
+      img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop",
+      body: `
+        <p>Sometimes the ocean doesn't roar — it whispers. Three weeks alone along the southern coast of Portugal taught me something that months of guided meditation apps never could: <strong>how to simply listen.</strong></p>
+        <p>I arrived with a suitcase, a laptop that I promised myself I wouldn't open after sunset, and an anxiety that hummed like a persistent refrigerator motor. For the first four days, the silence felt unnatural. My fingers twitched for a screen; my eyes searched for something to refresh.</p>
+        <p>By day five, I stopped carrying my phone to the beach. I sat on the sand as the late-afternoon sun softened from blazing gold to amber honey. The tide moved in slow, rhythmic cycles. There was nothing to react to, nothing to optimise, and nowhere else I needed to be.</p>
+        <p>We often think rest is something we have to earn after exhausting ourselves. But true stillness isn't an award; it is the ground from which all clarity returns. When I finally packed my bags to head home, the noise of the world was still waiting — but I was no longer carrying it inside me.</p>
+      `
+    },
+    "On Slow Mornings & Unhurried Coffee": {
+      tag: "Morning Rituals",
+      title: "On Slow Mornings & Unhurried Coffee",
+      date: "Sep 28, 2026",
+      read: "4 min read",
+      img: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>Before the notifications. Before the inbox. Before the expectations of the world begin piling upon your shoulders, there is an hour that belongs strictly to you: <strong>the first hour of the day.</strong></p>
+        <p>For years, my morning started with a blue-light glow illuminating my face while I was still half-asleep. I would read urgent emails about things that weren't actually urgent, and by 7:15 AM my nervous system was already in fight-or-flight mode.</p>
+        <p>Everything shifted when I turned coffee making into a mindful pause. Grinding the beans by hand, waiting for the water to heat just shy of boiling, and pouring in slow concentric circles. It takes all of seven minutes, but those seven minutes set an anchor for the next twelve hours.</p>
+        <p>If you want to protect your peace, start by defending your first thirty minutes. Don't let the world rush you out of your own morning.</p>
+      `
+    },
+    "The Art of Doing Nothing Well": {
+      tag: "Reflections",
+      title: "The Art of Doing Nothing Well",
+      date: "Sep 15, 2026",
+      read: "5 min read",
+      img: "https://images.unsplash.com/photo-1471086569966-db3eebc25a59?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>We live in a culture that has pathologized rest. If you are not building, shipping, reading a non-fiction book, or exercising, you are made to feel that you are falling behind. <strong>Rest has been disguised as laziness.</strong></p>
+        <p>The Italian concept of <em>il dolce far niente</em> — the sweetness of doing nothing — is not about neglect or apathy. It is the conscious appreciation of leisure. Sitting by a rain-streaked window watching drops race down the glass. Letting your mind wander down whatever alleyway it pleases without demanding a takeaway.</p>
+        <p>Creativity and mental balance don't emerge from constant exertion; they happen in the idle spaces between. Like breathing, you cannot only inhale. The exhale is where life stabilizes.</p>
+        <p>Give yourself permission today to waste twenty minutes deliberately. No guilt, no agenda. Just exist.</p>
+      `
+    },
+    "Writing to Find Out What I Think": {
+      tag: "Journaling",
+      title: "Writing to Find Out What I Think",
+      date: "Sep 2, 2026",
+      read: "7 min read",
+      img: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>Joan Didion once wrote: <em>"I write entirely to find out what I'm thinking, what I'm looking at, what I see and what it means."</em> I used to think people wrote in journals because they already had wisdom to record. The opposite is true.</p>
+        <p>When you hold thoughts inside your head, they loop and tangle. They feel larger, darker, and more confusing than they really are. But the moment ink touches paper, nebulous feelings are forced into grammar and syntax. They become tangible.</p>
+        <p>My daily journaling isn't poetry and it isn't destined for publication. Most days it reads like a messy inventory of minor worries and random observations. But by page two, something always untangles.</p>
+        <p>If your mind feels crowded, buy an inexpensive notebook and write without stopping for five minutes. Don't edit. Just watch what comes out.</p>
+      `
+    },
+    "Five Books That Quietly Rewired Me": {
+      tag: "Books",
+      title: "Five Books That Quietly Rewired Me",
+      date: "Aug 20, 2026",
+      read: "8 min read",
+      img: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>A great book doesn't necessarily scream at you with dramatic plot twists. Sometimes the most transformative books arrive like an old friend pulling up a chair and whispering something you always knew deep down.</p>
+        <p>Here are five books that quietly rearranged how I look at daily life:</p>
+        <p><strong>1. The Remains of the Day by Kazuo Ishiguro</strong> — A heartbreaking masterclass in emotional honesty and the quiet tragedy of postponing personal happiness in the name of duty.</p>
+        <p><strong>2. Letters from a Stoic by Seneca</strong> — Practical, punchy, and surprisingly modern reflections on time, friendship, and mortality.</p>
+        <p><strong>3. Siddhartha by Hermann Hesse</strong> — A lyrical journey reminding us that wisdom cannot simply be taught; it must be lived and experienced.</p>
+        <p><strong>4. Silence: In the Age of Noise by Erling Kagge</strong> — Written by an explorer who walked to the South Pole alone, this book explores why silence is our greatest luxury.</p>
+        <p><strong>5. The Book of Disquiet by Fernando Pessoa</strong> — Fragmented, melancholic, and deeply observant notes on the beauty of ordinary moments.</p>
+      `
+    },
+    "Learning to Enjoy My Own Company": {
+      tag: "Solitude",
+      title: "Learning to Enjoy My Own Company",
+      date: "Jun 12, 2026",
+      read: "5 min read",
+      img: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>There was a time when the prospect of spending an entire weekend alone filled me with subtle dread. I felt the urge to fill every quiet gap: podcasts on 1.5x speed while cooking, music in the shower, television running in the background just for company.</p>
+        <p>Loneliness is the painful feeling of lacking connection with others; <strong>solitude is the peaceful joy of connection with yourself.</strong></p>
+        <p>Learning solitude requires intentional practice. It starts with taking a walk through a quiet park without headphones. It continues with sitting in a corner café with just a sketchbook. At first, your mind fidgets like an unruly child. But eventually, the fidgeting subsides, and you discover that you are actually pretty good company.</p>
+      `
+    },
+    "Making Things Nobody Asked For": {
+      tag: "Creativity",
+      title: "Making Things Nobody Asked For",
+      date: "May 18, 2026",
+      read: "6 min read",
+      img: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>Everything in the digital economy is built around KPIs, likes, retweets, and audience engagement. We've been trained to ask: <em>"Who is this for?"</em> and <em>"How does this scale?"</em> before we even sketch the first outline.</p>
+        <p>Last month, I spent an entire rainy Sunday building a tiny web page that does nothing but play the sound of rain and display nostalgic memories. No analytics, no monetization, no social sharing buttons. Just pure fun.</p>
+        <p>Reclaiming the joy of making things without an audience is the ultimate antidote to creative burnout. When there is no one to judge your work, you are free to explore, stumble, and create with genuine joy.</p>
+      `
+    },
+    "The Ordinary Things I Keep Forgetting to Notice": {
+      tag: "Gratitude",
+      title: "The Ordinary Things I Keep Forgetting to Notice",
+      date: "May 1, 2026",
+      read: "3 min read",
+      img: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>The smell of clean laundry dried in the sun. The first crisp autumn breeze that requires a jacket. The sound of rain beating against glass when you have nowhere to go. <strong>None of these things are expensive, yet they are the richest textures of our lives.</strong></p>
+        <p>We spend so much time striving for milestones — the promotion, the new apartment, the vacation next summer — that we speed-walk through the present moment as if it were merely a waiting room.</p>
+        <p>Tonight, take sixty seconds before sleep to name three small, unremarkable things that went right today. That simple recognition changes everything.</p>
+      `
+    },
+    "Getting Lost Was the Whole Point": {
+      tag: "Travel",
+      title: "Getting Lost Was the Whole Point",
+      date: "Aug 14, 2026",
+      read: "6 min read",
+      img: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>I had a spreadsheet. I had every hour mapped with GPS coordinates and reservations. And then, thirty minutes after arriving in a mountain village, my phone battery died and the rain began.</p>
+        <p>I took shelter under the awning of a small bakery whose doorway smelled of freshly baked cinnamon and cardamom. The baker handed me hot tea while we traded hand gestures and broken sentences. It turned into the highlight of the entire journey.</p>
+        <p>Travel without room for error is just logistics in a different timezone. The best memories are almost always the unscripted detours.</p>
+      `
+    },
+    "On Changing Your Mind Without Apology": {
+      tag: "Growth",
+      title: "On Changing Your Mind Without Apology",
+      date: "Jul 22, 2026",
+      read: "4 min read",
+      img: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>In modern discourse, changing your mind is often viewed as hypocrisy or weakness. We praise rigid consistency as a badge of honor, even in the face of new facts and life experiences.</p>
+        <p>To learn and mature means outgrowing previous versions of yourself. The beliefs, habits, and career goals that served you at 20 might not fit who you are today — and that is not failure, that is progress.</p>
+        <p>Hold your values strongly, but hold your opinions loosely. Updating your worldview is simply living with your eyes open.</p>
+      `
+    },
+    "Three Lines a Day Is Enough": {
+      tag: "Mindfulness",
+      title: "Three Lines a Day Is Enough",
+      date: "Jul 8, 2026",
+      read: "4 min read",
+      img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=75&auto=format&fit=crop",
+      body: `
+        <p>I spent years abandoning journaling habits because I set the bar impossibly high. I felt like every entry needed to be a profound essay examining the human condition.</p>
+        <p>Then I adopted the three-line rule: <strong>one thing that happened, one thought I had, and one thing I am thankful for.</strong> That takes 90 seconds.</p>
+        <p>Consistency beats intensity every single time. Six months later, those short notes have become a treasured tapestry of a year well-lived.</p>
+      `
+    }
+  };
+
+  /* ---- Mobile nav ---- */
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  if (toggle && navLinks) {
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('open');
+      document.body.style.overflow = expanded ? '' : 'hidden';
+    });
+
+    // Close on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        navLinks.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+        toggle.setAttribute('aria-expanded', 'false');
+        navLinks.classList.remove('open');
+        document.body.style.overflow = '';
+        toggle.focus();
+      }
+    });
+  }
+
+  /* ---- Hero bg scale-in after load ---- */
+  const heroBg = document.querySelector('.hero-bg');
+  if (heroBg) {
+    window.addEventListener('load', () => {
+      requestAnimationFrame(() => heroBg.classList.add('loaded'));
+    });
+  }
+
+  /* ---- Scroll reveal ---- */
+  const revealTargets = [
+    '.section-header',
+    '.post-hero',
+    '.posts-grid .card',
+    '.about-img-wrap',
+    '.about-text',
+    '.newsletter-inner',
+  ];
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  revealTargets.forEach(selector => {
+    document.querySelectorAll(selector).forEach((el, i) => {
+      el.classList.add('reveal');
+      if (el.closest('.posts-grid')) {
+        el.style.transitionDelay = `${i * 0.08}s`;
+      }
+      observer.observe(el);
+    });
+  });
+
+  /* ---- Sticky header shadow on scroll ---- */
+  const header = document.querySelector('.site-header');
+  if (header) {
+    const scrollHandler = () => {
+      header.style.boxShadow = window.scrollY > 10
+        ? '0 4px 32px rgba(0,0,0,0.5)'
+        : '';
+    };
+    window.addEventListener('scroll', scrollHandler, { passive: true });
+  }
+
+  /* ---- Newsletter form ---- */
+  const form = document.querySelector('.nl-form');
+  const msgEl = document.getElementById('nl-msg');
+
+  if (form && msgEl) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = form.querySelector('input[type="email"]').value.trim();
+
+      if (!email) {
+        msgEl.textContent = 'Please enter a valid email address.';
+        msgEl.style.color = '#e07070';
+        return;
+      }
+
+      const btn = form.querySelector('button');
+      btn.textContent = 'Subscribing…';
+      btn.disabled = true;
+
+      // Simulate network request
+      await new Promise(resolve => setTimeout(resolve, 1000));
+
+      form.reset();
+      btn.textContent = 'Subscribe';
+      btn.disabled = false;
+      msgEl.textContent = '✓ You\'re in! Welcome to Dusk & Reverie.';
+      msgEl.style.color = 'var(--clr-accent)';
+
+      setTimeout(() => { msgEl.textContent = ''; }, 6000);
+    });
+  }
+
+  /* ---- Story Reader Modal ---- */
+  const modal = document.getElementById('storyModal');
+  const modalClose = document.getElementById('modalClose');
+  const modalCloseBottom = document.getElementById('modalCloseBottom');
+  const modalBackdrop = document.getElementById('modalBackdrop');
+  let lastActiveElement = null;
+
+  function openStoryModal(title) {
+    const story = STORY_ARTICLES[title.trim()];
+    if (!story || !modal) return;
+
+    lastActiveElement = document.activeElement;
+
+    document.getElementById('modal-tag').textContent = story.tag;
+    document.getElementById('modal-title').textContent = story.title;
+    document.getElementById('modal-date').textContent = story.date;
+    document.getElementById('modal-read').textContent = story.read;
+
+    const img = document.getElementById('modal-img');
+    img.src = story.img;
+    img.alt = story.title;
+
+    document.getElementById('modal-body').innerHTML = story.body;
+
+    modal.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+
+    // Scroll modal top
+    const card = modal.querySelector('.modal-card');
+    if (card) card.scrollTop = 0;
+
+    if (modalClose) modalClose.focus();
+  }
+
+  function closeStoryModal() {
+    if (!modal) return;
+    modal.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (lastActiveElement && typeof lastActiveElement.focus === 'function') {
+      lastActiveElement.focus();
+    }
+  }
+
+  if (modal) {
+    if (modalClose) modalClose.addEventListener('click', closeStoryModal);
+    if (modalCloseBottom) modalCloseBottom.addEventListener('click', closeStoryModal);
+    if (modalBackdrop) modalBackdrop.addEventListener('click', closeStoryModal);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.hasAttribute('hidden')) {
+        closeStoryModal();
+      }
+    });
+
+    // Modal focus trap
+    modal.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      const focusable = [...modal.querySelectorAll('button, [href], input, [tabindex]:not([tabindex="-1"])')]
+        .filter(el => !el.hasAttribute('hidden'));
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+
+  // Bind click event on every story card
+  document.querySelectorAll('.post-hero, .posts-grid .card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      // Avoid interference if an external link is clicked
+      const heading = card.querySelector('h3');
+      if (heading) {
+        e.preventDefault();
+        openStoryModal(heading.textContent);
+      }
+    });
+  });
+
+})();
